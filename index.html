@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Pexels-like Header</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="header-image.jpeg" alt="Background" class="background-img" />
+
+      <div class="overlay">
+        <!-- Navbar -->
+        <div class="navbar">
+          <div class="logo">pexels</div>
+          <div class="nav-links">
+            <a class="nav-links-a" href="#">Explore</a>
+            <a class="nav-links-a" href="#">License</a>
+            <a class="nav-links-a" href="#" style="font-size: 1.5rem">...</a>
+            <a href="#" class="join-btn buttons-a">Join</a>
+          </div>
+        </div>
+
+        <!-- Main content -->
+        <div class="content">
+          <h1>
+            The best free stock photos, royalty free <br />
+            images & videos shared by creators.
+          </h1>
+
+          <div class="search-bar">
+            <select>
+              <option>Photos</option>
+              <option>Videos</option>
+            </select>
+            <input type="text" placeholder="Search for free photos" />
+            <button>
+              <i class="fa-solid fa-magnifying-glass magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="hero-buttons">
+        <a class="buttons-a active" href="#">Home</a>
+        <a class="buttons-a" href="#">Videos</a>
+        <a class="buttons-a" href="#">Leaderboard</a>
+        <a class="buttons-a" href="#">Challenges</a>
+      </div>
+    </section>
+
+    <!-- Image Grid -->
+    <section class="image-grid">
+      <div class="grid">
+        <div class="card"><img src="header-image.jpeg" alt="Photo 1" /></div>
+        <div class="card"><img src="header-image.jpeg" alt="Photo 2" /></div>
+        <div class="card"><img src="header-image.jpeg" alt="Photo 3" /></div>
+        <div class="card"><img src="header-image.jpeg" alt="Photo 4" /></div>
+        <div class="card"><img src="header-image.jpeg" alt="Photo 5" /></div>
+        <div class="card"><img src="header-image.jpeg" alt="Photo 6" /></div>
+        <!-- Add more cards as needed -->
+      </div>
+    </section>
+  </body>
+</html>
